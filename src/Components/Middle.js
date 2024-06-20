@@ -1,12 +1,12 @@
 import React from 'react';
-import { Segment, Image } from 'semantic-ui-react';
+import { Segment,Image} from 'semantic-ui-react';
 
 
 const MiddleSection = () => {
   return (
     <Segment
       style={{
-        height: '100vh',
+        height: '70vh',
         backgroundImage: `url(${require('E:/Documents/myap/weatherapp/src/Components/images/aydobweather.png')})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -16,8 +16,10 @@ const MiddleSection = () => {
       }}
     >
       
+
     </Segment>
   );
-};
+}
+
 
 export default MiddleSection;
